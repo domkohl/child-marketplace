@@ -32,6 +32,7 @@ public class ShoppingCartTest {
         cart.setChildList(childList2Childs);
         Assertions.assertEquals(2, cart.getChildCount(), "ocekavam 2 deti");
     }
+    //test
 
     @Test
     @DisplayName("Test pro overeni pridani deti do listu")
